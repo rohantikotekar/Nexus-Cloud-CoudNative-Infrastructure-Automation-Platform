@@ -281,7 +281,7 @@ terraform workspace select blue && terraform destroy
 
 ## Key Achievements Breakdown:
 - **40+ Reusable Terraform Modules**: VPC, ALB, ASG, RDS, ElastiCache, S3, CloudFront with automated drift detection
-- **99.99% Uptime**: Multi-AZ deployment with <30s failover, cross-region DR (RPO <5min, RTO <15min)
+- **98.5% Uptime**: Multi-AZ deployment with <30s failover, cross-region DR (RPO <5min, RTO <15min)
 - **65% Cost Reduction**: $45K→$15.75K/month through spot instances (60% savings), auto-scaling, reserved instances, and S3 lifecycle policies
 - **Intelligent Auto-Scaling**: ML-based predictive scaling from 2-100 instances handling 50K+ concurrent users
 - **Zero-Downtime Deployments**: Blue-green + canary releases with automated rollback and health checks
