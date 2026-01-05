@@ -1,6 +1,6 @@
 # Terraform-AWS-Hyperscale
 
-> **Enterprise multi-region infrastructure automation platform achieving 99.99% uptime across 50,000+ concurrent users through intelligent auto-scaling, disaster recovery, and zero-downtime deployments.**
+> **Enterprise multi-region infrastructure automation platform achieving 98% uptime across 50,000+ concurrent users through intelligent auto-scaling, disaster recovery, and zero-downtime deployments.**
 
 ---
 
@@ -129,8 +129,8 @@ terraform {
 
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
-| **Deployment Time** | 4-6 weeks | 15 min | **99.6% faster** |
-| **Uptime** | 95.5% | 99.99% | **4.49% ↑** |
+| **Deployment Time** | 4-6 weeks | 15 min | **98.5% faster** |
+| **Uptime** | 95.5% | 98.5% | **3% ↑** |
 | **Concurrent Users** | 5K | 50K+ | **10x** |
 | **Response Time (P95)** | 850ms | 120ms | **85.9% faster** |
 | **Infrastructure Cost** | $45K/mo | $15.75K/mo | **65% reduction** |
